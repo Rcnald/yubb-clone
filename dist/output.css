@@ -557,6 +557,10 @@ video {
   grid-row-end: 1;
 }
 
+.m-6 {
+  margin: 1.5rem;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -601,8 +605,12 @@ video {
   width: 100%;
 }
 
-.w-28 {
-  width: 7rem;
+.w-6 {
+  width: 1.5rem;
+}
+
+.w-6\.3rem {
+  width: 6.3rem;
 }
 
 .max-w-\[1380px\] {
