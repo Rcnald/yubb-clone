@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .box-shadow{
+        box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.15);
+    }
+
+    .nav-links{
+         @apply order-2 1md:order-none w-full flex justify-between cursor-pointer 1md:block 1md:w-auto
+    }
+}
