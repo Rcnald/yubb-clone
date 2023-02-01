@@ -27,7 +27,7 @@ module.exports = {
         '91px-5fr-fit-content(0)':'91px 5fr fit-content(0)'
       },
       screens:{
-        'md': '888px',
+        'md': '900px',
         'lg': '1086px',
       },
       maxWidth: {

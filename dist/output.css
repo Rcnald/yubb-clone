@@ -531,7 +531,7 @@ video {
   color: rgb(0 117 182 / var(--tw-text-opacity));
 }
 
-@media (min-width: 888px) {
+@media (min-width: 900px) {
   .nav-links {
     order: 0;
     display: block;
@@ -729,6 +729,11 @@ video {
   line-height: 2rem;
 }
 
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
 .text-base {
   font-size: 1rem;
   line-height: 1.5rem;
@@ -737,11 +742,6 @@ video {
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
-}
-
-.text-sm {
-  font-size: 0.875rem;
-  line-height: 1.25rem;
 }
 
 .font-bold {
@@ -815,7 +815,7 @@ video {
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
-@media (min-width: 888px) {
+@media (min-width: 900px) {
   .md\:order-none {
     order: 0;
   }
