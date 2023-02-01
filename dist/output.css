@@ -719,6 +719,10 @@ video {
   padding-left: 0.5px;
 }
 
+.pl-\.5px {
+  padding-left: 0.5px;
+}
+
 .font-open-sans {
   font-family: 'Open Sans', sans-serif;
 }
