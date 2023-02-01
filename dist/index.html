@@ -14,7 +14,7 @@
 </head>
 <body class="h-full">
     <header class="box-shadow">
-        <div class="mx-auto max-w-1380px w-full grid grid-cols-91px-5fr-fit-content(0) px-15px py-3 gap-2 place-items-center
+        <div class="mx-auto max-w-1380px w-full grid grid-cols-91px-5fr-fit-content(0) px-15px py-3 gap-x-2 place-items-center
                     md:gap-3">
             <img src="../src/assets/logo.svg" alt="Logo do Yubb" title="Encontre e compare gratuitamente os melhores investimentos" class="mr-auto my-1 cursor-pointer row-start-1
                                                                                                                                            md:mr-0 md:row-start-auto"> 
@@ -25,20 +25,32 @@
                 <ul id="menuMobileHeader" class="hidden font-open-sans text-2xl font-bold text-gray-main gap-6 flex-col my-5 w-full 
                                                  md:flex md:flex-row md:my-0 md:text-base md:font-normal">
                     <li class="nav-links">
-                        <a href="#">Buscador de Investimentos</a><i></i>
+                        <a href="#" class="after:content-['Buscar_investimentos']
+                                           md:after:content-[]">
+                            <span class="hidden 
+                                         md:inline">
+                                         Buscador de Investimentos
+                             </span>
+                        </a>
+                        <i class="after:content-['\f0d7'] fa-solid text-sm
+                                  md:after:content-[]"></i>
                     </li>
 
                     <li class="nav-links order-1 
                                md:order-none">
-                        <a href="#">Cursos</a><i></i>
+                        <a href="#">Cursos</a>
+                        <i class="after:content-['\f0d7'] fa-solid text-sm
+                                  md:after:content-[]"></i>
                     </li>
 
                     <li class="nav-links">
-                        <a href="#">Ferramentas</a><i></i>
+                        <a href="#">Ferramentas</a><i class="after:content-['\f0d7'] fa-solid text-sm
+                                                             md:after:content-[]"></i>
                     </li>
 
                     <li class="nav-links">
-                        <a href="#">Conteúdos</a><i></i>
+                        <a href="#">Conteúdos</a><i class="after:content-['\f0d7'] fa-solid text-sm
+                                                           md:after:content-[]"></i>
                     </li>
 
                     <li class="nav-links cursor-default">
