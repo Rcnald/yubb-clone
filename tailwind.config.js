@@ -9,7 +9,6 @@ module.exports = {
         '15px':'15px',
         '22':'5.5rem',
         '6.3rem':'6.3rem',
-        '1380px':'1380px',
         '90vw':'90vw',
       },
       fontFamily:{
@@ -24,11 +23,14 @@ module.exports = {
         }
       },
       gridTemplateColumns:{
-        '3-custom':'91px 5fr 1fr'
+        '91px-5fr-1fr':'91px 5fr 1fr'
       },
       screens:{
-        '1lg': '1086px',
-        '1md': '888px',
+        'md': '888px',
+        'lg': '1086px',
+      },
+      maxWidth: {
+        '1380px':'1380px',
       },
     },
   },

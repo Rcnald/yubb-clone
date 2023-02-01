@@ -8,6 +8,6 @@
     }
 
     .nav-links{
-         @apply order-2 1md:order-none w-full flex justify-between cursor-pointer 1md:block 1md:w-auto
+         @apply order-2 w-full flex justify-between items-center cursor-pointer md:order-none md:block md:w-auto hover:text-blue-link
     }
 }
