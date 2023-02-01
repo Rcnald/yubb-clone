@@ -24,7 +24,7 @@ module.exports = {
         }
       },
       gridTemplateColumns:{
-        '91px-5fr-1fr':'91px 5fr 1fr'
+        '91px-5fr-fit-content(0)':'91px 5fr fit-content(0)'
       },
       screens:{
         'md': '888px',

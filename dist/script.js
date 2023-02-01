@@ -13,6 +13,6 @@ buttonHeader.addEventListener('click',function(){
     toogleMobileMenu(menuHeader,'hidden','flex')
     toogleMobileMenu(buttonHeaderIcon,'fa-xmark','fa-bars','text-2xl','pl-.5px')
     for (const arrow of arrowsDown) {
-        toogleMobileMenu(arrow,'fa-solid', 'fa-caret-down', 'text-xs')
+        toogleMobileMenu(arrow,'fa-solid', 'fa-caret-down', 'text-sm')
       }
 })
