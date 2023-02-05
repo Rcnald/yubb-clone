@@ -10,4 +10,8 @@
     .nav-links{
          @apply order-2 w-full flex justify-between items-center cursor-pointer md:order-none md:block md:w-auto hover:text-blue-link
     }
+
+    .nav-buttons{
+        @apply py-2 px-1.5 hover:bg-blue-link hover:text-white hover:rounded-lg cursor-pointer
+    }
 }

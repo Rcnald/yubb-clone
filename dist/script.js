@@ -1,6 +1,7 @@
-const menuHeader = document.getElementById('menuMobileHeader')
 const buttonHeader = document.getElementById('buttonMobileHeader')
-const buttonHeaderIcon = document.getElementById('buttonMobileHeaderIcon')
+const navHeaderLinks = document.getElementsByClassName('nav-links')
+
+const navButtons = document.getElementsByClassName('nav-buttons')
 
 const toogleMobileMenu = function() {
     for(let i = 0; i <= arguments.length; ++i){
@@ -9,6 +10,9 @@ const toogleMobileMenu = function() {
 }
 
 buttonHeader.addEventListener('click',function(){
+    const menuHeader = document.getElementById('menuMobileHeader')
+    const buttonHeaderIcon = document.getElementById('buttonMobileHeaderIcon')
+
     toogleMobileMenu(menuHeader,'hidden','flex')
     toogleMobileMenu(buttonHeaderIcon,'fa-xmark','fa-bars','text-2xl','pl-.5px')
 })

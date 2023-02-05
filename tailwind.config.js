@@ -4,10 +4,11 @@ module.exports = {
   theme: {
     extend: {
       spacing:{
-        '.5px':'0.5px',
+        '.5px':'0.5px', 
         '5px':'5px',
         '7px':'7px',
         '15px':'15px',
+        '5.75':'1.4375rem',
         '22':'5.5rem',
         '6.3rem':'6.3rem',
         '90vw':'90vw',
@@ -16,7 +17,10 @@ module.exports = {
         'open-sans':["'Open Sans', sans-serif"],
       },
       colors:{
+        'white-bg': '#F8F8F8',
         'gray-main': '#555555',
+        'gray-light': '#E0E0E0',
+        'gray-dark': '#343A40',
         'blue-link': '#0075B6',
         'red':{
           '600':'#BE3255',
