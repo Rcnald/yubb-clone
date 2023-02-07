@@ -16,7 +16,6 @@ const addEventClick = function(link, buttons){
         })
 
         if(j > 3){
-            console.log('b')
             continue
         }else{
             link[j].addEventListener('click', function(){
