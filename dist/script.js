@@ -6,8 +6,6 @@ const navButtons = document.getElementsByClassName('nav-buttons')
 
 const addEventClick = function(link, buttons){
     for(let j = 0; j < 7; ++j){
-        console.log('a')
-        
         buttons[j].addEventListener('click', function(){
             let choosen = buttons[j]
 
