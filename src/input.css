@@ -12,7 +12,7 @@
     }
 
     .nav-buttons{
-        @apply py-2 px-1.5 hover:bg-blue-link hover:text-white hover:rounded-lg cursor-pointer
+        @apply py-2 px-1.5 hover:button-click cursor-pointer
     }
 
     .button-click{
