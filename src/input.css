@@ -14,4 +14,8 @@
     .nav-buttons{
         @apply py-2 px-1.5 hover:bg-blue-link hover:text-white hover:rounded-lg cursor-pointer
     }
+
+    .button-click{
+        @apply text-white bg-blue-link rounded-lg
+    }
 }
