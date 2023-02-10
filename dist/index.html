@@ -12,7 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
     <title>Melhores investimentos em até R$ 5.000,00 com resgate em 12 meses - Yubb</title>
 </head>
-<body class="h-full flex flex-col gap-6 bg-white-bg">
+<body class="h-full flex flex-col gap-6 bg-white-bg font-open-sans">
     <header class="box-shadow">
         <div class="mx-auto max-w-1380px w-full grid grid-cols-91px-5fr-fit-content(0) px-15px py-3 gap-x-2 place-items-center
                     md:gap-3">
@@ -22,7 +22,7 @@
             <nav class="flex items-center col-span-3 place-self-start w-full
                         md:mr-auto md:col-span-2 md:place-self-auto md:pl-4
                         lg:col-span-1">
-                <ul id="menuMobileHeader" class="hidden font-open-sans text-2xl font-bold text-gray-main gap-6 flex-col my-5 w-full 
+                <ul id="menuMobileHeader" class="hidden text-2xl font-bold text-gray-main gap-6 flex-col my-5 w-full 
                                                  md:flex md:flex-row md:my-0 md:text-base md:font-normal">
                     <li class="nav-links">
                         <a href="#" class="after:content-['Buscar_investimentos']
@@ -60,7 +60,7 @@
                 </ul>   
             </nav>
 
-            <span id="buttonMobileHeader" class="font-open-sans font-bold text-lg text-gray-main uppercase flex items-center gap-5px cursor-pointer row-start-1 row-end-1 place-self-end my-auto
+            <span id="buttonMobileHeader" class="font-bold text-lg text-gray-main uppercase flex items-center gap-5px cursor-pointer row-start-1 row-end-1 place-self-end my-auto select-none
                                                  hover:brightness-150
                                                  md:hidden">
                 Menu<i id="buttonMobileHeaderIcon" class="fa-solid fa-bars"></i>
@@ -69,19 +69,18 @@
             <div class="flex items-center gap-3 place-self-end my-auto col-start-2 col-end-2 row-start-1
                         md:col-start-1 md:col-end-auto md:row-start-auto md:place-self-start
                         lg:col-start-auto">
-                <a href="#" class="hidden text-blue-link text-base font-open-sans font-semibold px-7px py-5px rounded-lg w-6.3rem
+                <a href="#" class="hidden text-blue-link text-base  font-semibold px-7px py-5px rounded-lg w-6.3rem
                                    hover:bg-blue-link hover:text-white
                                    md:block">Criar conta</a>
-                <a href="#" class="text-blue-link text-base font-open-sans font-semibold px-7px py-5px rounded-lg
+                <a href="#" class="text-blue-link text-base  font-semibold px-7px py-5px rounded-lg
                                    hover:bg-blue-link hover:text-white">Entrar</a>
             </div>
         </div>
     </header>
 
-    <section class="font-open-sans font-bold uppercase text-base text-gray-dark">
-        <nav class="max-w-1380px w-full mx-auto px-15px">
-            <ul class="flex flex-wrap gap-x-3 gap-y-2 border-b border-gray-light pb-5
-                       md:pb-4">
+    <section class="max-w-1380px w-full mx-auto px-15px flex flex-col gap-4">
+        <nav>
+            <ul class="flex flex-wrap gap-x-3 gap-y-2 font-bold uppercase text-base text-gray-dark">
                 <li class="nav-buttons button-click"><a href="#">Renda Fixa</a></li>
                 <li class="nav-buttons"><a href="#">Ações</a></li>
                 <li class="nav-buttons"><a href="#">Fundos de Investimento</a></li>
@@ -92,11 +91,18 @@
             </ul>
         </nav>
 
+        <div class="border-b border-gray-light-default"></div>
 
-        <div class="max-w-1380px w-full mx-auto px-15px">
-            
+        <div class="px-15px bg-gray-light-50 border rounded-lg p-4">
+            <div class="flex items-center gap-2">
+                <div class="h-30px w-30px shrink-0 rounded-full border-2 border-blue-link flex justify-center items-center text-2xl font-light text-blue-link">?</div>
+                <p class="text-cyan-900 text-sm">Os investimentos em renda fixa são opções mais seguras para você aplicar seu dinheiro. Quer mais informações? <a href="#" class="text-blue-link
+                                                                                                                                                                                    hover:underline">Clique para expandir.</a></p>
+            </div>
         </div>
     </section>
+
+    
 </body>
 <script src="./script.js"></script>
 </html>
